@@ -358,14 +358,14 @@
 
                     <!-- Works Gallery Single Item Start -->
                     <div class="col-12 col-md-6 gallery__item grid-item animate-card-2" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 100px);">
-                        <a href="https://bsc.ir/public/meetings/index.html?id=c090b312-003e-11f1-a85d-000c29f25b4f" data-image="img/Hair_Cut_Image.png" class="gallery__link" data-size="1400x1400">
+                        <a href="/customer-booking" data-image="img/Hair_Cut_Image.png" class="gallery__link" data-size="1400x1400">
                             <img src="{{asset("img/Hair_Cut_Image.png")}}" class="gallery__image" itemprop="thumbnail" alt="Image description">
                             <div class="picture" style="background-image: url({{asset('img/1400x1400_w01.webp')}});"></div></a>
                         <figcaption class="gallery__descr" itemprop="caption description">
                             <h5>Isometric House</h5>
                             <div class="card__tags d-flex flex-wrap">
-                                <a href="https://bsc.ir/public/meetings/index.html?id=c090b312-003e-11f1-a85d-000c29f25b4f" class="rounded-tag opposite">کوتاهی مو</a>
-                                <a href="https://bsc.ir/public/meetings/index.html?id=c090b312-003e-11f1-a85d-000c29f25b4f" class="rounded-tag opposite">ماشین و قیچی</a>
+                                <a href="/customer-booking" class="rounded-tag opposite">کوتاهی مو</a>
+                                <a href="/customer-booking" class="rounded-tag opposite">ماشین و قیچی</a>
                             </div>
                             <p class="small">Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio.
                             </p>
@@ -376,14 +376,14 @@
 
                     <!-- Works Gallery Single Item Start -->
                     <div class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 100px);">
-                        <a href="https://bsc.ir/public/meetings/index.html?id=c090b312-003e-11f1-a85d-000c29f25b4f" data-image="img/Fade_Image.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                        <a href="/customer-booking" data-image="img/Fade_Image.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
                             <img src="{{asset("img/Fade_Image.png")}}" class="gallery__image" itemprop="thumbnail" alt="Image description">
                             <div class="picture" style="background-image: url({{asset("img/800_w01-thumb.webp")}});"></div></a>
                         <figcaption class="gallery__descr opposite" itemprop="caption description">
                             <h5 class="opposite">Dashboard Template</h5>
                             <div class="card__tags d-flex flex-wrap">
-                                <a href="https://bsc.ir/public/meetings/index.html?id=c090b312-003e-11f1-a85d-000c29f25b4f" class="rounded-tag">فید مو</a>
-                                <a href="https://bsc.ir/public/meetings/index.html?id=c090b312-003e-11f1-a85d-000c29f25b4f" class="rounded-tag">سایه زنی</a>
+                                <a href="/customer-booking" class="rounded-tag">فید مو</a>
+                                <a href="/customer-booking" class="rounded-tag">سایه زنی</a>
                             </div>
                             <p class="small">Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio,
                                 a mollis ipsum tristique eu.
@@ -394,14 +394,14 @@
 
                     <!-- Works Gallery Single Item Start -->
                     <div class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 100px);">
-                        <a href="https://bsc.ir/public/meetings/index.html?id=c090b312-003e-11f1-a85d-000c29f25b4f" data-image="img/Breed_Image.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                        <a href="/customer-booking" data-image="img/Breed_Image.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
                             <img src="{{asset("img/Breed_Image.png")}}" class="gallery__image" itemprop="thumbnail" alt="Image description">
                             <div class="picture" style="background-image: url({{asset("img/800_w03-thumb.webp")}});"></div></a>
                         <figcaption class="gallery__descr opposite" itemprop="caption description">
                             <h5 class="opposite">Notification Icon</h5>
                             <div class="card__tags d-flex flex-wrap">
-                                <a href="https://bsc.ir/public/meetings/index.html?id=c090b312-003e-11f1-a85d-000c29f25b4f" class="rounded-tag">اطلاح ریش</a>
-                                <a href="https://bsc.ir/public/meetings/index.html?id=c090b312-003e-11f1-a85d-000c29f25b4f" class="rounded-tag">فید ریش</a>
+                                <a href="/customer-booking" class="rounded-tag">اطلاح ریش</a>
+                                <a href="/customer-booking" class="rounded-tag">فید ریش</a>
                             </div>
                             <p class="small">Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio,
                                 a mollis ipsum tristique eu.
@@ -412,14 +412,14 @@
 
                     <!-- Works Gallery Single Item Start -->
                     <div class="col-12 col-md-6 gallery__item grid-item animate-card-2" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 100px);">
-                        <a href="https://bsc.ir/public/meetings/index.html?id=c090b312-003e-11f1-a85d-000c29f25b4f" data-image="img/Clean_Face_Image.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
+                        <a href="/customer-booking" data-image="img/Clean_Face_Image.png" class="gallery__link" itemprop="contentUrl" data-size="1400x1400">
                             <img src="{{asset("img/Clean_Face_Image.png")}}" class="gallery__image" itemprop="thumbnail" alt="Image description">
                             <div class="picture" style="background-image: url({{asset("img/800_w04-thumb.webp")}});"></div></a>
                         <figcaption class="gallery__descr " itemprop="caption description">
                             <h5>Smart Penguin</h5>
                             <div class="card__tags d-flex flex-wrap">
-                                <a href="https://bsc.ir/public/meetings/index.html?id=c090b312-003e-11f1-a85d-000c29f25b4f" class="rounded-tag opposite">پاکسازی صورت</a>
-                                <a href="https://bsc.ir/public/meetings/index.html?id=c090b312-003e-11f1-a85d-000c29f25b4f" class="rounded-tag opposite">ماساژ</a>
+                                <a href="/customer-booking" class="rounded-tag opposite">پاکسازی صورت</a>
+                                <a href="/customer-booking" class="rounded-tag opposite">ماساژ</a>
                             </div>
                             <p class="small">Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio,
                                 a mollis ipsum tristique eu.
