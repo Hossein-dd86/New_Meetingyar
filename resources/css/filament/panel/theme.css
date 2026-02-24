@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'kalameh';
+    src: url('../../../../public/fonts/kalameh/Kalameh-Bold.ttf') format('truetype');
+    font-weight: normal;
+}
+
+* {
+    font-family: 'kalameh', sans-serif !important;
+}

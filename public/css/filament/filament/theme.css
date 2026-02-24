@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'kalameh';
+    src: url('../../../fonts/kalameh/Kalameh-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'kalameh';
+    src: url('../../../fonts/kalameh/Kalameh-Bold.ttf') format('truetype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'kalameh';
+    src: url('../../../fonts/kalameh/Kalameh-Black.ttf') format('truetype');
+    font-weight: 800;
+}
+* {
+    font-family: 'kalameh', sans-serif !important;
+}
