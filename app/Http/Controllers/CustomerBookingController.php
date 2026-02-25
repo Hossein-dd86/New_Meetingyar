@@ -160,12 +160,11 @@ class CustomerBookingController extends Controller
 
         $result = $response->json();
 
-        if($result['data']['code'] == 100) {
-            $booking->transaction_id = $result['Authority'];
-            $booking->save();
+        if (isset($result['data']) && $result['data']['code'] == 100) {
 
-            // 2️⃣ هدایت کاربر به درگاه
-            return redirect("https://www.zarinpal.com/pg/StartPay/{$result['Authority']}");
+            $booking->status = 'paid';
+            $booking->ref_id = $result['data']['ref_id'];
+            $booking->save();
         } else {
             return redirect()->back()->with('error', 'خطا در ایجاد تراکنش زرین‌پال');
         }
