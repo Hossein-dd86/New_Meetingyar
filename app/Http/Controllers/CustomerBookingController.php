@@ -151,11 +151,11 @@ class CustomerBookingController extends Controller
         $amount = $service->price;
 
         // 1️⃣ درخواست ایجاد تراکنش به زرین‌پال
-        $response = Http::post('https://www.zarinpal.com/pg/rest/WebGate/PaymentRequest.json', [
-            'MerchantID' => env('ZARINPAL_MERCHANT_ID'),
-            'Amount' => 30000,
-            'Description' => 'رزرو نوبت',
-            'CallbackURL' => route('payment.callback', $booking->id),
+        $response = Http::post('https://api.zarinpal.com/pg/v4/payment/request.json', [
+            "merchant_id" => env('ZARINPAL_MERCHANT_ID'),
+            "amount" => 30000,
+            "description" => "رزرو نوبت",
+            "callback_url" => route('payment.callback', $booking->id),
         ]);
 
         $result = $response->json();
