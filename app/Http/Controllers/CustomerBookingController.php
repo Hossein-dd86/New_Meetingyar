@@ -160,13 +160,20 @@ class CustomerBookingController extends Controller
 
         $result = $response->json();
 
-        if (isset($result['data']) && $result['data']['code'] == 100) {
+        if (isset($result['data']) && in_array($result['data']['code'], [100, 101])) {
 
             $booking->status = 'paid';
-            $booking->ref_id = $result['data']['ref_id'];
+            $booking->ref_id = $result['data']['ref_id'] ?? null;
             $booking->save();
+
+            return redirect()->route('customer.booking.success', $booking->id);
+
         } else {
-            return redirect()->back()->with('error', 'خطا در ایجاد تراکنش زرین‌پال');
+
+            \Log::error('Zarinpal Verify Error', $result);
+
+            return redirect()->route('customer.booking.cancel', $booking->id)
+                ->with('error', 'پرداخت تایید نشد');
         }
         return redirect()->back()->with('success', 'رزرو شما ثبت شد!');
 
