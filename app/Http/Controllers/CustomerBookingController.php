@@ -159,7 +159,7 @@ class CustomerBookingController extends Controller
         ]);
 
         $result = $response->json();
-        dd($result);
+
         if($result['Status'] == 100) {
             $booking->transaction_id = $result['Authority'];
             $booking->save();
@@ -169,7 +169,7 @@ class CustomerBookingController extends Controller
         } else {
             return redirect()->back()->with('error', 'خطا در ایجاد تراکنش زرین‌پال');
         }
-//        return redirect()->back()->with('success', 'رزرو شما ثبت شد!');
+        return redirect()->back()->with('success', 'رزرو شما ثبت شد!');
 
     }
     public function callback(Request $request, $booking_id)
