@@ -160,7 +160,7 @@ class CustomerBookingController extends Controller
 
         $result = $response->json();
 
-        if($result['Status'] == 100) {
+        if($result['data']['code'] == 100) {
             $booking->transaction_id = $result['Authority'];
             $booking->save();
 
