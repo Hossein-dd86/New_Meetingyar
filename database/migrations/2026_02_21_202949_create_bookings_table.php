@@ -35,6 +35,7 @@ failed       پرداخت ناموفق
 cancelled    لغو شده توسط کاربر یا ادمین
 expired      منقضی شده (عدم پرداخت در زمان مشخص)
 refunded     مبلغ برگشت داده شده');
+            $table->string('ref_id')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
