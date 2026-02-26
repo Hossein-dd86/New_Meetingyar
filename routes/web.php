@@ -6,7 +6,7 @@ use App\Http\Controllers\CustomerBookingController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 
 Route::get('/customer-booking', [CustomerBookingController::class, 'create'])->name('customer.booking.create');

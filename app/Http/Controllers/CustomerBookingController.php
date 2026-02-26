@@ -166,7 +166,7 @@ class CustomerBookingController extends Controller
             $booking->ref_id = $result['data']['ref_id'] ?? null;
             $booking->save();
 
-            return redirect()->route('customer.booking.success', $booking->id);
+            return redirect()->route('welcome', $booking->id);
 
         } else {
 
