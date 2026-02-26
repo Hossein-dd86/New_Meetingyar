@@ -166,7 +166,7 @@ class CustomerBookingController extends Controller
             $booking->ref_id = $result['data']['ref_id'] ?? null;
             $booking->save();
 
-            return redirect()->route('welcome', $booking->id);
+            return redirect("https://www.zarinpal.com/pg/StartPay/".$result['data']['authority']);
 
         } else {
 
